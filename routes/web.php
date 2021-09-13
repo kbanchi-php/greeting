@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return '<h1>Hello from Root!!</h1>';
 });
 
 Route::get('/comments/random', [
